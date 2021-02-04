@@ -8,7 +8,7 @@ import java.util.Stack;
  * @Date: create in 2/4/21 - 10:55 AM
  */
 // TODO: to be understand
-public class FlatternAMultilevelDoublyLinkedList {
+public class FlattenAMultilevelDoublyLinkedList {
     public Node flattern(Node head) {
         if (head == null) return head;
         Stack<Node> stack = new Stack<>();
