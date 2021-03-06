@@ -7,6 +7,7 @@ import java.util.PriorityQueue;
  * @Description: https://leetcode.com/problems/super-ugly-number/
  * @Date: create in 3/6/21 - 10:07 AM
  */
+// TODO: to be understand
 public class SuperUglyNumber {
 
     public int nthSuperUglyNumber(int n, int[] primes) {
