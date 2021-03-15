@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  * @Author: Lucky
- * @Description:
+ * @Description: https://leetcode.com/problems/find-center-of-star-graph/
  * @Date: create in 3/15/21 - 10:22 AM
  */
 public class FindCenterOfStarGraph {
