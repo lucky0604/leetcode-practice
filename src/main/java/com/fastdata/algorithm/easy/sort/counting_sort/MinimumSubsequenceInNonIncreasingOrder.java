@@ -1,4 +1,4 @@
-package com.fastdata.algorithm.easy.sort;
+package com.fastdata.algorithm.easy.sort.counting_sort;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,7 @@ import java.util.List;
  * @Description: https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/
  * @Date: create in 1/4/21 - 11:33 AM
  */
-// TODO: to be done
+// TODO: to be understand
 public class MinimumSubsequenceInNonIncreasingOrder {
     public static void main(String[] args) {
 
