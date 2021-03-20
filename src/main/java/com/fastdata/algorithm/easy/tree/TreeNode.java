@@ -6,11 +6,11 @@ package com.fastdata.algorithm.easy.tree;
  * @Date: create in 1/8/21 - 11:27 AM
  */
 public class TreeNode {
-    int val;
+    public int val;
 
-    TreeNode left;
+    public TreeNode left;
 
-    TreeNode right;
+    public TreeNode right;
 
     TreeNode() {};
 
