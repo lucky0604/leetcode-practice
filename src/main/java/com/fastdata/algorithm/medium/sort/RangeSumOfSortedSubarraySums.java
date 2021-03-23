@@ -19,8 +19,8 @@ public class RangeSumOfSortedSubarraySums {
                 temp = 0;
                 for (int k = i; k <= j; ++k) {
                     temp += nums[k];
-                    ret.add(temp);
                 }
+                ret.add(temp);
             }
         }
         Collections.sort(ret);
