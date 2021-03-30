@@ -6,7 +6,11 @@ import java.util.Map;
 
 /**
  * @Author: Lucky
- * @Description:
+ * @Description: Certification
+ * Write a check() method that calls sort() for a given array and
+ * returns true if sort() puts the array in order and leaves the same set of objects in the
+ * array as were there initially, false otherwise. Do not assume that sort() is restricted to
+ * move data only with exch(). You may use Arrays.sort() and assume that it is correct.
  * @Date: create in 3/29/21 - 12:43 PM
  */
 public class Solution_2_1_16 {
