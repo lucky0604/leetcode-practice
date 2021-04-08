@@ -1,4 +1,4 @@
-package com.fastdata.algorithm.solutions.ch02;
+package com.fastdata.algorithm.solutions.ch02.section01;
 
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdOut;
