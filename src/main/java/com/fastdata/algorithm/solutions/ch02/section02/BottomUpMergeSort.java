@@ -21,7 +21,7 @@ public class BottomUpMergeSort {
         }
     }
 
-    private static void merge(Comparable[] arr, Comparable[] aux, int low, int mid, int high) {
+    public static void merge(Comparable[] arr, Comparable[] aux, int low, int mid, int high) {
         for (int i = low; i <= high; i ++) {
             aux[i] = arr[i];
         }
