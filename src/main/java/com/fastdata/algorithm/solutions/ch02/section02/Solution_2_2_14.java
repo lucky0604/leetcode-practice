@@ -33,7 +33,7 @@ public class Solution_2_2_14 {
 
     }
 
-    private static Queue<Comparable> mergedQueue(Queue<Comparable> q1, Queue<Comparable> q2) {
+    public static Queue<Comparable> mergedQueue(Queue<Comparable> q1, Queue<Comparable> q2) {
         Queue<Comparable> ret = new Queue<>();
 
         while (!q1.isEmpty() && !q2.isEmpty()) {
