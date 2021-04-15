@@ -7,7 +7,7 @@ import com.fastdata.algorithm.medium.linked_list.ListNode;
  * @Description: https://leetcode.com/problems/insertion-sort-list/
  * @Date: created in 2021/4/4 - 21:58
  */
-// TODO: to be understand
+// TODO: to be understand sort linked list by using insertion sort
 public class InsertionSortList {
 
     public ListNode insertionSortList(ListNode head) {
