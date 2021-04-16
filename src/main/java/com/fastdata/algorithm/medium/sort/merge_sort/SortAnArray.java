@@ -1,4 +1,4 @@
-package com.fastdata.algorithm.medium.sort.insertion_sort;
+package com.fastdata.algorithm.medium.sort.merge_sort;
 
 /**
  * @ClassName: SortAnArray
