@@ -43,7 +43,7 @@ public class Solution_2_2_20 {
     }
 
     public static void indexSort(Comparable[] array, int[] aux, int[] indexSort, int low, int high) {
-        if (low <= high) return;
+        if (low >= high) return;
         int mid = low + (high - low) / 2;
         indexSort(array, aux, indexSort, 0, mid);
         indexSort(array, aux, indexSort, mid + 1, high);
