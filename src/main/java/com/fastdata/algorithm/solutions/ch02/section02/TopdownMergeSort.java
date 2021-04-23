@@ -10,7 +10,7 @@ package com.fastdata.algorithm.solutions.ch02.section02;
 
 public class TopdownMergeSort {
 
-    private static void mergeSort(Comparable[] arr) {
+    public static void mergeSort(Comparable[] arr) {
         Comparable[] aux = new Comparable[arr.length];
         sort(arr, aux, 0, arr.length - 1);
     }
