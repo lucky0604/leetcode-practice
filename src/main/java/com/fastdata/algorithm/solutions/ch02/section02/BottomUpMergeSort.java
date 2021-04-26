@@ -10,7 +10,7 @@ package com.fastdata.algorithm.solutions.ch02.section02;
 
 public class BottomUpMergeSort {
 
-    private static void mergeSort(Comparable[] arr) {
+    public static void mergeSort(Comparable[] arr) {
 
         Comparable[] aux = new Comparable[arr.length];
         for (int size = 1; size < arr.length; size = size + size) {
