@@ -9,7 +9,7 @@ import java.util.Queue;
  * @Contact: lucky_soft@163.com
  * @Date: 5/14/21 10:19 AM
  * @Version: 1.0
- * @Description:
+ * @description: https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
  **/
 
 public class PopulatingNextRightPointersInRightNode {
