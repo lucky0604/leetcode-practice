@@ -16,7 +16,9 @@ public class KthSmallestElementInABST {
     List<Integer> list = new ArrayList<>();
 
     public int kthSmallest(TreeNode root, int k) {
-        if (root == null) return -1;
+        if (root == null) {
+            return -1;
+        }
         treeToList(root);
         Collections.sort(list);
         for (int i = 0; i < k; i ++) {
@@ -30,7 +32,9 @@ public class KthSmallestElementInABST {
     }
 
     private void treeToList(TreeNode root) {
-        if (root == null) return;
+        if (root == null) {
+            return;
+        }
         treeToList(root.left);
         list.add(root.val);
         treeToList(root.right);
