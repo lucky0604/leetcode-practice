@@ -15,7 +15,7 @@ import java.util.Queue;
  * @Version: 1.0
  * @description: https://leetcode.com/problems/maximum-width-of-binary-tree/
  **/
-
+// TODO: to be understand
 public class MaximumWidthofBinaryTree {
 
     public int widthOfBinaryTree(TreeNode root) {
