@@ -12,13 +12,13 @@ import com.fastdata.algorithm.utils.ArrayUtil;
  * @description:
  **/
 
-public class Solution_2_4_03<Key extends Comparable<Key>> {
+public class Solution_2_4_03_OrderedArray<Key extends Comparable<Key>> {
 
 
     private Key[] priorityQueue;
     private int size = 0;
 
-    public Solution_2_4_03(int size) {
+    public Solution_2_4_03_OrderedArray(int size) {
         priorityQueue = (Key[]) new Comparable[size];
     }
 

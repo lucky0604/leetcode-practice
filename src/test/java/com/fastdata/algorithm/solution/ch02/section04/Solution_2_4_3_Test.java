@@ -1,7 +1,7 @@
 package com.fastdata.algorithm.solution.ch02.section04;
 
-import com.fastdata.algorithm.solutions.ch02.section04.Solution_2_4_03;
-import edu.princeton.cs.algs4.StdOut;
+import com.fastdata.algorithm.solutions.ch02.section04.Solution_2_4_03_OrderedArray;
+import com.fastdata.algorithm.solutions.ch02.section04.Solution_2_4_03_OrderedLinkedList;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -18,7 +18,7 @@ public class Solution_2_4_3_Test {
 
     @Test
     public void testPriorityQueue() {
-        Solution_2_4_03<Integer> priorityQueueOrderedArray = new Solution_2_4_03<>(5);
+        Solution_2_4_03_OrderedArray<Integer> priorityQueueOrderedArray = new Solution_2_4_03_OrderedArray<>(5);
         priorityQueueOrderedArray.insert(2);
         priorityQueueOrderedArray.insert(10);
         priorityQueueOrderedArray.insert(4);
@@ -30,5 +30,18 @@ public class Solution_2_4_3_Test {
         assertEquals(String.valueOf(2), String.valueOf(priorityQueueOrderedArray.removeMax()));
         assertEquals(String.valueOf(1), String.valueOf(priorityQueueOrderedArray.removeMax()));
 
+    }
+
+    @Test
+    public void testPriorityQueueOrderedLinkedList() {
+        Solution_2_4_03_OrderedLinkedList<Integer> priorityQueueOrderedLinkedList = new Solution_2_4_03_OrderedLinkedList<>();
+        priorityQueueOrderedLinkedList.insert(2);
+        priorityQueueOrderedLinkedList.insert(10);
+        priorityQueueOrderedLinkedList.insert(4);
+        priorityQueueOrderedLinkedList.insert(1);
+        assertEquals(String.valueOf(10), String.valueOf(priorityQueueOrderedLinkedList.removeMax()));
+        assertEquals(String.valueOf(4), String.valueOf(priorityQueueOrderedLinkedList.removeMax()));
+        assertEquals(String.valueOf(2), String.valueOf(priorityQueueOrderedLinkedList.removeMax()));
+        assertEquals(String.valueOf(1), String.valueOf(priorityQueueOrderedLinkedList.removeMax()));
     }
 }
