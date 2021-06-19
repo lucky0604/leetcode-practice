@@ -1,4 +1,4 @@
-package com.fastdata.algorithm.easy.backtracking;
+package com.fastdata.algorithm.medium.backtracking;
 
 
 import java.util.ArrayList;
