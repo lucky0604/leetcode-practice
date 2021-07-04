@@ -1,4 +1,4 @@
-package com.fastdata.algorithm.easy.dynamic_programic;
+package com.fastdata.algorithm.medium.dynamic_programmic;
 
 import com.fastdata.algorithm.easy.tree.Node;
 import com.fastdata.algorithm.easy.tree.TreeNode;
