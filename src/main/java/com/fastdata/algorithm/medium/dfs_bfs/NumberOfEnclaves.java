@@ -1,4 +1,4 @@
-package com.fastdata.algorithm.medium.union_find;
+package com.fastdata.algorithm.medium.dfs_bfs;
 
 /**
  * @Author: lucky
