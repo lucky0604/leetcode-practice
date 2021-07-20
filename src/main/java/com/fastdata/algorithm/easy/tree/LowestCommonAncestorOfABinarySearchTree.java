@@ -10,7 +10,9 @@ public class LowestCommonAncestorOfABinarySearchTree {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         // BST:
         // left value < root value < right value
-        if (root == null || root == p || root == q) return root;
+        if (root == null || root == p || root == q) {
+            return root;
+        }
 
         int rootVal = root.val;
         int pVal = p.val;
