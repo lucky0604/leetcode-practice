@@ -1,6 +1,4 @@
-package com.fastdata.algorithm.easy.stack;
-
-import java.util.Arrays;
+package com.fastdata.algorithm.easy.queue_stack;
 
 /**
  * @Author: Lucky

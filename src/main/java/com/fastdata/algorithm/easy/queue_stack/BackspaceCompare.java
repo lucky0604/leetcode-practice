@@ -1,7 +1,6 @@
-package com.fastdata.algorithm.easy.stack;
+package com.fastdata.algorithm.easy.queue_stack;
 
 import java.util.ArrayDeque;
-import java.util.Arrays;
 import java.util.Deque;
 
 /**

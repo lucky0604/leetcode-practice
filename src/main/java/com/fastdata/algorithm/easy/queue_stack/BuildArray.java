@@ -1,9 +1,7 @@
-package com.fastdata.algorithm.easy.stack;
+package com.fastdata.algorithm.easy.queue_stack;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.Stack;
 
 /**
  * @Author: Lucky
